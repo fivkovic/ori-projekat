@@ -25,6 +25,7 @@ if __name__ == '__main__':
         if args.qtable:
             with open(args.qtable, 'rb') as f:
                 q_table = pickle.load(f)
+                print("Q-Table loaded successfully")
         else:
             q_table = {}
 
